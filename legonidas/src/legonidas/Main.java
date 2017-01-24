@@ -4,6 +4,7 @@ import lejos.hardware.Button;
 import lejos.hardware.lcd.LCD;
 import lejos.hardware.motor.EV3MediumRegulatedMotor;
 import lejos.hardware.port.MotorPort;
+import lejos.utility.Delay;
 
 public class Main {
 
@@ -13,8 +14,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		LCD.drawString("Hello World!", 0, 4);
-//		Delay.msDelay(5000);
+		LCD.drawString("Hello World!", 0, 4);
+		Delay.msDelay(5000);
 		
 		motorA = new EV3MediumRegulatedMotor(MotorPort.A);
 		LCD.drawString("FORWARD",0,0);
