@@ -9,7 +9,7 @@ public class Main {
 
 	private static EV3MediumRegulatedMotor motorA;
 	
-
+	
 	public static void main(String[] args) {
 		
 //		LCD.drawString("Hello World!", 0, 4);
@@ -24,6 +24,7 @@ public class Main {
 		Button.waitForAnyPress();
 		motorA.stop();     
 		
+	
 		
 	}
 
