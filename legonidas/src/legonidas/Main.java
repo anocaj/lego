@@ -12,10 +12,10 @@ public class Main {
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		LCD.drawString("Hello World!", 0, 4);
-		Delay.msDelay(5000);
+		Delay.msDelay(2000);
 		
 		motorA = new EV3MediumRegulatedMotor(MotorPort.A);
 		LCD.drawString("FORWARD",0,0);
